@@ -1,20 +1,13 @@
-function sockMerchant(n, ar) {
-    let entry = 0;
-    let count = 0;
-    let size = ar.length;
-    for(let i = 0; i < size; i++){
-      entry = (ar[0]);
-      ar.splice(0, 1);
-   if(ar.includes(entry)){
-       delete ar[0];
-    count ++;
-  } else {  
-  }
-  }
-    return count;
-  
+
+let u = +1;
+let d = -1;
+let msl = 0;
+
+function countingValleys(steps, char){
+  for(let i = 0; i < steps; i++){
+  console.log(char[i]);
+}
 }
 
-}
-let meias = sockMerchant(9, [10, 20, 20, 10, 10, 30, 50, 10, 20]);
-console.log(meias);
+let vale = countingValleys(8,"UDDDUDUU");
+console.log(vale);
